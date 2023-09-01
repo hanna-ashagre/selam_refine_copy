@@ -105,18 +105,18 @@ void draw() {
     }
   } 
   
-  //else if (int(choose)==2) {
-  //  String  detail=showInputDialog("1. address\n2. service");
+  else if (int(choose)==2) {
+    String  detail=showInputDialog("1. address\n2. service");
 
-  //  if (int(detail)==1) {
+    if (int(detail)==1) {
 
-  //    showMessageDialog(null, "our address // bishoftu, evangelical");
-  //  } else if (int(detail)==2) {
-  //    showMessageDialog(null, "Services \n1.        \n2.        \n3.          \n4.      ");
-  //  } else {
-  //    showMessageDialog(null, "error number");
-  //  }   // for address and service input
-  //} 
+      showMessageDialog(null, "our address // bishoftu, evangelical");
+    } else if (int(detail)==2) {
+      showMessageDialog(null, "Services \n1.        \n2.        \n3.          \n4.      ");
+    } else {
+      showMessageDialog(null, "error number");
+    }   // for address and service input
+  } 
   
   else {
     showMessageDialog(null, "please enter correct number");
@@ -203,3 +203,4 @@ int diffBetween (String prev, String today) {
 
   return counter;
 }
+//this a comment
